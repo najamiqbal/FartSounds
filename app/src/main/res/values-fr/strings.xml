@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Sons de pet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Accueil</string>
+    <string name="menu_lang">Langue</string>
+    <string name="menu_privacy">Politique de confidentialité</string>
+    <string name="menu_rate">Évaluez nous</string>
+
+    <string name="s1">Le Pet à la Rose</string>
+    <string name="s2">Le Pet Aérien</string>
+    <string name="s3">Le Pet Allongé</string>
+    <string name="s4">Le Pet Atomique</string>
+    <string name="s5">Le Pet Classique</string>
+    <string name="s6">Le Pet dans la cuvette</string>
+    <string name="s7">Le Pet de Bourrin</string>
+    <string name="s8">Le Pet de Canard</string>
+    <string name="s9">Le Pet Discret</string>
+    <string name="s10">Le Pet Foireux</string>
+    <string name="s11">Le Pet Forcé</string>
+    <string name="s12">Le Pet Furtif</string>
+    <string name="s13">Le Pet Mastodonte</string>
+    <string name="s14">Le Pet Prolongé</string>
+    <string name="s15">Le Pet Serré mais prolongé</string>
+    <string name="s16">Le Pet Sournois</string>
+    <string name="s17">Le Pet Timide</string>
+    <string name="s18">Le Simili Pet</string>
+    <string name="s19">Le Simple Pet</string>
+    <string name="continue_button">CONTINUER</string>
+    <string name="tab_to_continue">Cliquer pour continuer</string>
+    <string name="ad_install_btn">Ouvrir</string>
+    <string name="please_wait">CHARGEMENT...</string>
+
+
+    <string name="could_not_launch_the_playstore">Impossible de lancer le Play Store</string>
+
+
+    <string name="publisher_id_admob" translatable="false">pub-1501505753844787~7593558259</string>
+    <string name="app_id_admob" translatable="false">ca-app-pub-1501505753844787~7593558259</string>
+    <string name="banner_id_admob" translatable="false">ca-app-pub-1501505753844787/3093655016</string>
+    <!--    <string name="reward_id_admob" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+    <string name="open_ad">ca-app-pub-1501505753844787/7287711584</string>
+    <string name="native_id_admob" translatable="false">ca-app-pub-1501505753844787/4332469089</string>
+
+
+</resources>

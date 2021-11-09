@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.app.fartsounds.ui.fragments.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_lang"
+        android:name="com.app.fartsounds.ui.fragments.LanguageFragment"
+        android:label="@string/menu_lang"
+        tools:layout="@layout/fragment_language" />
+
+    <fragment
+        android:id="@+id/nav_privacy"
+        android:name="com.app.fartsounds.ui.fragments.PrivacyFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_privacy" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.app.fartsounds.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+
+    <!--    <fragment-->
+<!--        android:id="@+id/nav_rate"-->
+<!--        android:name="com.app.fartsounds.ui.slideshow.SlideshowFragment"-->
+<!--        android:label="@string/menu_rate"-->
+<!--        tools:layout="@layout/fragment_slideshow" />-->
+</navigation>

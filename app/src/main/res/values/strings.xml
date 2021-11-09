@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Fart Sounds</string>
+
+
+    <string name="appKey" translatable="false">11736c1fd</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_lang">Language</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_rate">Rate Us</string>
+
+    <string name="s1">The Fart which Smells Like Rose</string>
+    <string name="s2">The Air Fart</string>
+    <string name="s3">The Fart of the Future</string>
+    <string name="s4">The Atomic Fart</string>
+    <string name="s5">The Classic Fart</string>
+    <string name="s6">The Fart in the Toilet Bowl</string>
+    <string name="s7">The Fart of the Year</string>
+    <string name="s8">The Fart of the Duck</string>
+    <string name="s9">The Discreet Fart</string>
+    <string name="s10">The Crappy Fart</string>
+    <string name="s11">The Forced Fart</string>
+    <string name="s12">Stealthy Fart</string>
+    <string name="s13">The Fart Mastodon</string>
+    <string name="s14">The Long Fart</string>
+    <string name="s15">The Fart Tight but Prolonged</string>
+    <string name="s16">The Sneaky Fart</string>
+    <string name="s17">The Shy Fart</string>
+    <string name="s18">The Little Fart</string>
+    <string name="s19">The Single Fart</string>
+    <string name="continue_button">CONTINUE</string>
+    <string name="tab_to_continue">Tab to continue</string>
+    <string name="ad_install_btn">Install</string>
+    <string name="please_wait">PLEASE WAIT...</string>
+
+
+    <string name="could_not_launch_the_playstore">Couldn\'t launch the Play Store</string>
+
+
+</resources>

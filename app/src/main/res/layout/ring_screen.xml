@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="#FFF"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+<RelativeLayout
+    android:id="@+id/l_ringtone"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_below="@+id/toolbar">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/ic_action_play" />
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img"
+        android:layout_toRightOf="@+id/img"
+        android:layout_centerVertical="true"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        />
+     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/l_set_ringtone"
+        android:layout_below="@+id/l_ringtone">
+
+        <TextView
+            android:id="@+id/set_rintone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:text="Set"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:id="@+id/lring"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/set_rintone"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/ic_call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ringtone"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/l_set_contactringtone"
+        android:layout_below="@+id/l_set_ringtone">
+
+        <TextView
+            android:id="@+id/set_rintonecontact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Set"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:id="@+id/lringcontact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/set_rintonecontact"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_contact_phone_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ringtone"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/l_set_sms"
+        android:layout_below="@+id/l_set_contactringtone">
+
+        <TextView
+            android:id="@+id/set_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Set"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lsms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/set_sms"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/notifications_active"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMS/Notification"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/l_set_alarm"
+        android:layout_below="@+id/l_set_sms">
+
+        <TextView
+            android:id="@+id/set_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:text="Set"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/black_color"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lalarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/set_alarm"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_access_alarm_24"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alarm Tone"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>
