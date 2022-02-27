@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sons de pet</string>
+    <string name="app_name">funny Ringtones</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -35,6 +35,7 @@
     <string name="tab_to_continue">Cliquer pour continuer</string>
     <string name="ad_install_btn">Ouvrir</string>
     <string name="please_wait">CHARGEMENT...</string>
+    <string name="watch">Regardez</string>
 
 
     <string name="could_not_launch_the_playstore">Impossible de lancer le Play Store</string>

@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white_color"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:custom="http://schemas.android.com/tools">
 
@@ -13,36 +14,36 @@
     </ImageView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/loadingBtn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/loadingBtn"
-        app:cardCornerRadius="5dp"
-        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_alignParentBottom="true"
-        android:backgroundTint="#ff0000">
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/blue"
+        app:cardCornerRadius="5dp">
 
 
-        <ProgressBar
-            android:layout_marginStart="40dp"
+        <!--<ProgressBar
+            android:id="@+id/progress_bar"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:id="@+id/progress_bar"
             android:layout_gravity="center_vertical"
+            android:layout_marginStart="40dp"
             android:indeterminate="true"
             android:indeterminateTint="#fff"
-            android:indeterminateTintMode="src_atop"/>
+            android:indeterminateTintMode="src_atop" />-->
 
 
         <TextView
-            android:text="@string/please_wait"
-            android:textColor="#fff"
             android:id="@+id/lodertext"
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
-            android:textSize="18sp"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/continue_button"
+            android:textColor="@color/white_color"
+            android:textSize="18sp" />
 
     </androidx.cardview.widget.CardView>
 

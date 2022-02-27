@@ -4,9 +4,9 @@
 <!--    <color name="colorPrimaryDark">#3700B3</color>-->
 <!--    <color name="colorAccent">#03DAC5</color>-->
 
-    <color name="colorPrimary">#754537</color>
-    <color name="colorPrimaryDark">#754537</color>
-    <color name="colorAccent">#754537</color>
+    <color name="colorPrimary">#512DA8</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="colorAccent">#512DA8</color>
 
     <color name="bright_pink">#FF007F</color>
     <color name="red">#FF0000</color>
@@ -21,6 +21,7 @@
     <color name="violet">#7F00FF</color>
     <color name="magenta">#FF00FF</color>
     <color name="black_color">#000</color>
+    <color name="white_color">#fff</color>
 
     <array name="rainbow">
         <item>@color/bright_pink</item>

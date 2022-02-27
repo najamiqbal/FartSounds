@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fart Sounds</string>
+    <string name="app_name">funny Ringtones</string>
 
 
     <string name="appKey" translatable="false">11736c1fd</string>
@@ -40,9 +40,26 @@
     <string name="tab_to_continue">Tab to continue</string>
     <string name="ad_install_btn">Install</string>
     <string name="please_wait">PLEASE WAIT...</string>
+    <string name="watch">WATCH</string>
 
 
     <string name="could_not_launch_the_playstore">Couldn\'t launch the Play Store</string>
+    <string name="permission_required">Permissions Required?</string>
+    <string name="no">No</string>
+    <string name="permission_message"><![CDATA[Allow all permission at [Setting] > [permissions]]]></string>
+    <string name="allow_access" translatable="false">Allow Access</string>
+    <string name="set_sound_need_permission_msg" translatable="false">To set sounds needs permission to modify system settings.</string>
+    <string name="not_now" translatable="false">Not Now</string>
+    <string name="exit_app">Exit App</string>
+    <string name="do_you_realy_want_to_exit">Do you enjoy Our App</string>
+    <string name="yes">Yes</string>
 
+
+       <!-- test ids-->
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_intersitital">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
 
 </resources>
